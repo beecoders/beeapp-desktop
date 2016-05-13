@@ -1,8 +1,9 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "ElectronReact",
-  "version": "0.10.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "beeapp",
+  "productName": "beeapp",
+  "version": "0.1.0",
+  "companyName": "Beecoders",
+  "description": "beeapp",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -25,27 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    "url": "git+https://github.com/beecoders/beeapp-desktop.git"
   },
-  "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
-  },
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    "url": "https://github.com/beecoders/beeapp-desktop/issues"
   },
-  "keywords": [
-    "electron",
-    "boilerplate",
-    "react",
-    "react-router",
-    "flux",
-    "webpack",
-    "react-hot"
-  ],
-  "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/beecoders/beeapp-desktop",
   "devDependencies": {
     "asar": "^0.11.0",
     "babel-core": "^6.7.6",
@@ -67,7 +53,7 @@
     "css-loader": "^0.23.1",
     "del": "^2.2.0",
     "electron-packager": "^6.0.2",
-    "electron-prebuilt": "^0.37.6",
+    "electron-prebuilt": "^1.0.1",
     "electron-rebuild": "^1.1.3",
     "eslint": "^2.8.0",
     "eslint-config-airbnb": "^7.0.0",
